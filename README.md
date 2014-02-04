@@ -14,6 +14,7 @@ This program should work in any operating system.
 	```
 	python show-all-files.py
 	```
+	
 	on each of the servers that could have been compromised and the server that you know has not been attacked.
 	You can exclude certain directories by adding them to the list **listUnwanted**
 	This process could take a lot of time.
@@ -22,5 +23,6 @@ This program should work in any operating system.
 	```
 	python compare-md5-files.py UNHACKED-SERVER.txt HACKED-SERVER.txt
 	```
+	
 	This will display which files had a different MD5 checksum, which might indicate that those files could be compromised.
 
